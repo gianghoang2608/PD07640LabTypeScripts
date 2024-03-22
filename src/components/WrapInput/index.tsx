@@ -19,7 +19,7 @@ const WrapInput = forwardRef(
           />
           {error && (
             <Image
-              source={require('../../assest/error.png')}
+              source={require('../../assests/error.png')}
               style={styles.errorIcon}
             />
           )}

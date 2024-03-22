@@ -1,5 +1,5 @@
 import React from "react";
-import  SectionView  from "../../../components/SectionView"; // Đảm bảo điều chỉnh đường dẫn đến tệp SectionView
+import SectionView from "../../../components/SectionView"; // Đảm bảo điều chỉnh đường dẫn đến tệp SectionView
 import { Button, Image } from "react-native";
 
 const Ex2 = () => {
@@ -24,13 +24,13 @@ const Ex2 = () => {
                     content: "21:00 - 22:00 "
                 },
                 {    
-                title: "Hình ảnh",
-                content: <Image  source={require("../../../assest/beach.jpg")}></Image>
+                    title: "Hình ảnh",
+                    content: <Image source={require('../../../assests/beach.jpg')}></Image>
                 },
             ]
         },
         {
-            title: "Kháck sạn",
+            title: "Khách sạn",
             events: [
                 {
                     title: "Tên khách hàng",
